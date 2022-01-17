@@ -1,0 +1,258 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    color: #000;
+}
+.intro_bg{
+    background-image: url("../img/introbg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+} 
+.header{
+    display: flex;
+    width: 868px;
+    height: 80px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.search_area{
+    /* background-color: plum; */
+    margin-top: 24px;
+    width: 300px;
+    height: 40px;
+    /* padding-left: 20px; */
+}
+.search_area > form > input{
+    width: 200px;
+    height: 40px;
+    background: rgba(255, 190, 71, 0.8);
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #fff;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 80px;
+    margin-left: 400px;
+    /* background-color: skyblue; */
+    width: calc(868px - 300px); 
+}
+
+.menu > li{
+    margin-left: 60px;
+}
+.menu > li > a:hover{
+    color: #fff;
+    
+
+}
+.intro_text{
+    /* margin-top: 227px; */  /*1*/
+    /* margin-right: 240px; */ /*1*/
+    margin-left: 10px; /*2*/
+    text-align:center;
+    /* background: chartreuse; */
+}
+ .intro_text h1{
+    margin-top: 50px;
+    font-size: 70px;
+    color: #fff;
+     
+}
+.intro_text h5{
+    margin-top: 13px;
+    font-size: 20px;
+    color: #fff;
+}
+.sutitle{
+    position: relative;
+    top: -50px;
+    display: flex;
+    width: 700px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+}
+.sutitle > li{
+    flex: 1;
+    height: 100px;
+    line-height: 40px;
+}
+.sutitle > li > div{
+    text-align: center;
+    /* background-color: blue; */
+    margin-top: 30px;
+    height: 40px;
+    font-size: 20px;
+    color: #000;
+}
+.sutitle > li:not(:last-child) > div{
+    border-right: 1px solid rgb(190, 190, 190);
+}
+@media (max-width: 800px){
+    .sutitle
+    {
+        display: block;
+        width: auto;
+    }
+}
+
+.main_text0{
+    width: 100%;
+    height: 520px;
+    background-color: rgb(147 147 146);
+    margin-top: -100px;
+}
+.main_text0 > h1{
+    padding-top: 75px;
+    font-size: 42px;
+    text-align: center;
+}
+.assist{
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 7px;
+}
+.icon{
+    display: flex;
+    /* background: aqua; */
+    margin: auto;
+    width: 700px;
+    height: 350px;
+}
+.icon > li{
+    flex: 1;
+    height: 305px;
+    margin-top: 38px;
+    background: #fff;
+    text-align: center;
+}
+.icon > li:not(:last-child){
+    margin-right: 18px;
+}
+.icon > li > .icon_img{
+    margin-top: 20px;
+}
+
+.assist_bold{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main_text1{
+    width: 100%;
+    height: 1490px;
+    /* background-color: rgb(234, 241, 255); */
+}
+.main_text1 > h1{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.assist1{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.cafe{
+    width: 700px;
+    display: flex;
+    margin: 30px auto;
+    height: 400px;
+    /* background: chartreuse; */
+}
+
+.gaegsa{
+    width: 700px;
+    display: flex;
+    margin: 40px auto;
+    height: 400px;
+    /* background: cyan; */
+}
+
+.milk{
+    width: 700px;
+    display: flex;
+    margin: 40px auto;
+    height: 400px;
+    /* background: plum; */
+}
+.assist2{
+    padding-left: 10px;
+    font-size: 16.07px;
+}
+@media (max-width: 800px){
+    .main_text1,
+    .assist2, 
+    .cafe,
+    .gaegsa,
+    .milk{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+}
+.main_text2{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/contact.jpg");
+}
+.main_text2 > ul{
+    display: flex;
+    padding-top: 50px;
+}
+
+.main_text2 > ul > li{
+    flex: 1;
+    text-align: center;
+}
+.main_text2 > ul > li > div {
+    color: #fff;
+    line-height: 25px;
+}
+.main_text2 > ul > li >  h1 {
+    color: rgb(152, 179, 255);
+}
+.main_text2 > ul > li > div > h3{
+    padding-top: 18px;
+    color: rgb(255, 210, 181);
+}
+
+.more {
+    position: relative;
+    top: 185px;
+    left: 253px;
+    width: 150px;
+    height: 33px;
+    font-size: 23px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    background: #1f1f1f;
+    padding: 30px;
+    line-height: 25px;
+}
+
+footer > div:first-child {
+    flex:3 ;
+    text-align: center;
+    color: #fff;
+    
+}
+
+footer > div:last-child {
+    flex: 9;
+    color: #fff;
+    
+}
